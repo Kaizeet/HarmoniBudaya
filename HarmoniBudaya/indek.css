@@ -1,0 +1,40 @@
+.bg-black {
+	background-color: rgb(255, 26, 26);
+}
+
+.bg-orange {
+	background-color: #f0644f;
+	color: rgb(0, 96, 181);
+	font-weight: 600;
+	text-align: center;
+}
+
+.btn-new {
+	background-color: #f0644f;
+	color: #fff;
+}
+
+m-right {
+	border: 2px solid #f0644f;
+	border-right: 2px solid #fff;
+}
+
+.underline {
+	width: 100px;
+	height: 2px;
+	background-color: orangered;
+}
+.bg-light-gray {
+	background-color: rgba(200, 0, 0, 0.812);
+}
+
+.card {
+	border: 1px solid orange;
+}
+
+footer {
+	height: 50px;
+	color: #fff;
+	text-align: center;
+}
+

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>Online Shop</title>
+  <style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    #back-button {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        background-color: #4b4b4b;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<button id="back-button" onclick="goBack()">Kembali</button>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<!-- Bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	
+  <!--  Styles  -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  	<div class="container-fluid bg-dark header-top d-none d-md-block">
+			<div class="container">
+					<div class="row text-light pt-2 pb-2">
+						<div class="col-md-5"><i class="fa fa-envelope" aria-hidden="true"></i>	HarmoniGroup@gmail.com
+						</div>
+							<div class="col-md-3">
+								
+						</div>
+						<div class="col-md-2">
+							<i class="fa fa-user" aria-hidden="true"></i>	Account
+						</div>
+						<div class="col-md-2">
+							<i class="fa fa-cart-plus" aria-hidden="true"></i>	My cart - RP.1.000.000
+						</div>
+				</div>
+			</div>
+	</div>
+  <div class="container-fluid bg-black">
+		<nav class="container navbar navbar-expand-lg navbar-dark bg-black">
+  <a class="navbar-brand" href="#">#Watches</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">New</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Brand
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#"></a>
+          <a class="dropdown-item" href="#"></a>
+					<a class="dropdown-item" href="#"></a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#"></a>
+					<a class="dropdown-item" href="#"></a>
+					<a class="dropdown-item" href="#"></a>
+        </div>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+		
+	</div>
+	<!-- Carousel -->
+	
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="" alt="">
+			 <div class="carousel-caption d-none d-md-block">
+    			<h5></h5>
+				 <button class="btn btn-new"></button>
+    </div>
+		</div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="" alt="">
+			<div class="carousel-caption d-none d-md-block">
+    		
+    </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="" alt="">
+    </div>
+		<div class="carousel-caption d-none d-md-block">
+    			
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only"></span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only"></span>
+  </a>
+</div>
+	
+	<!-- -->
+	
+	<div class="container-fluid offer pt-3 pb-3 bg-orange d-none d-md-block">
+			<div class="container">
+				<div class="row">
+						<div class="col-md-4 m-right">
+							<h4></h4>
+							<p></p>
+					</div>
+					<div class="col-md-4 m-right">
+							<h4></h4>
+						<p></p>
+				</div>
+					<div class="col-md-4">
+						<h4></h4>
+						<p></p>
+					</div>
+		</div>
+	</div>
+	</div>
+	
+	<div class="container-fluid bg-light-gray">
+			<div class="container pt-5">
+					<div class="row">
+						<h3>TOP Busana</h3>
+				</div>
+				<div class="underline"></div>
+		</div>
+		
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-md-3">
+						<div class="card">
+							<img src="busana 1-fotor-2024020501328.jpg" alt="card1" class="card-img-top">
+							<div class="card-body">
+								<h5>Busana Tari biasa</h5>
+                                <p>Busana tari di Sanggar Harmoni Budaya menawarkan kualitas unggul bagi pelanggan. Sanggar ini menyediakan beragam opsi kostum, termasuk busana tari tradisional, klasik, kreasi, tokoh  pewayangan, dan kethoprak untuk disewa.</p>
+                                <h5>50k - 500k / set</h5>
+								<button class="btn btn-danger">
+									<i class="fa fa-cart-plus" aria-hidden="true"></i>Add To Cart
+								</button>
+							</div>
+					</div>
+				</div>
+				
+				<div class="col-md-3">
+						<div class="card">
+							<img src="busana 2-fotor-2024020501420.jpg" alt="card1" class="card-img-top">
+							<div class="card-body">
+								<h5>Busana Karnaval Premium</h5>
+                                <p>Sanggar Harmoni Budaya juga menyediakan koleksi kostum karnaval berkualitas tinggi dengan berbagai pilihan desain dan tema yang dapat disewa untuk memeriahkan acara Anda.</p>
+                                <h5>50k - 500k / set</h5>
+								<button class="btn btn-danger">
+									<i class="fa fa-cart-plus" aria-hidden="true"></i>Add To Cart
+								</button>
+							</div>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	<!-- Footer -->
+	<div class="container-fluid bg-black">
+			<div class="row">
+				<footer>
+					Designed and Developed by: Zoran Solak
+				</footer>
+		</div>
+		
+	</div>
+	
+	</div>
+	
+  
+  <!-- Scripts -->
+  <script src="scripts/index.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
